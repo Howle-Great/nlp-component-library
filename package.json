@@ -2,6 +2,7 @@
   "name": "nlp-component-library",
   "version": "0.1.0",
   "private": true,
+  "repository": "https://github.com/Howle-Great/nlp-component-library.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +35,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "auto": "^10.36.5",
+    "cross-env": "^7.0.3"
+  },
+  "main": "src/index.js",
+  "author": "howle <mdv413@mail.ru>",
+  "license": "MIT"
 }
