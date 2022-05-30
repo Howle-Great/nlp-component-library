@@ -1,0 +1,39 @@
+<root id="1"><element><university
+      id="1"
+      address="mos"
+      city="moscow"
+    >bmstu</university></element><element><university
+      id="10"
+      address="mos"
+      city="moscow"
+    >bmstu2</university></element><element><department
+      id="4"
+      description="dddd"
+      uid="1"
+      budget="232000"
+    >iu5<master id="1" /></department></element><element><department
+      id="1"
+      description="rrrr"
+      uid="1"
+      budget="101000"
+    >iu6<master id="1" /></department></element><element><masters
+      id="1"
+      last_name="Ivanova"
+      patronymic="Polkova"
+      expertise="engineering"
+      contact="(+79876755665,121)"
+    >Nady</masters></element><element><masters
+      id="2"
+      last_name="Ivanova"
+      patronymic="Petrovna"
+      expertise="telecommunication"
+      contact="(+79876575665,2edds)"
+    >Nina</masters></element><element><department
+      id="4"
+      uid="1"
+      budget="232000"
+    >iu5<master id="1" /></department></element><element><department
+      id="1"
+      uid="1"
+      budget="101000"
+    >iu6<master id="1" /></department></element></root>
